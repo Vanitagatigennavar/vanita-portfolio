@@ -1,0 +1,143 @@
+# 🌐 Vanita Portfolio
+
+A modern, responsive **personal portfolio website** built with **React + Vite**, showcasing my skills, projects, experience, and contact information. This portfolio is designed to be fast, clean, and recruiter‑friendly.
+
+🔗 **Live Demo:** [https://vanita-portfolio.netlify.app](https://vanita-portfolio.netlify.app)
+
+---
+
+## 📌 Features
+
+* ⚡ Fast and lightweight build using **Vite**
+* 🎨 Modern, clean UI with responsive design
+* 📱 Fully responsive (mobile, tablet, desktop)
+* 🧩 Reusable React components
+* 🚀 Deployed on **Netlify** with CI/CD
+* 🔄 Client-side routing support
+* 💼 Sections for About, Skills, Projects, and Contact
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js
+* **Build Tool:** Vite
+* **Styling:** CSS / Tailwind CSS (if applicable)
+* **Deployment:** Netlify
+* **Version Control:** Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+```bash
+vanita-portfolio/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+├── netlify.toml
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/Vanitagatigennavar/vanita-portfolio.git
+```
+
+### 2️⃣ Navigate to the project folder
+
+```bash
+cd vanita-portfolio
+```
+
+### 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Run the development server
+
+```bash
+npm run dev
+```
+
+The app will run at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🏗️ Build for Production
+
+```bash
+npm run build
+```
+
+This will generate a `dist/` folder ready for deployment.
+
+---
+
+## 🚀 Deployment (Netlify)
+
+The project is deployed using **Netlify** with the following configuration:
+
+```toml
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+```
+
+Every push to the `main` branch triggers an automatic redeploy.
+
+---
+
+## 👩‍💻 About Me
+
+I’m **Vanita Gatigennavar**, a passionate **Frontend Developer** with experience in building scalable and high‑performance web applications using **React, MERN stack, and modern UI practices**.
+
+---
+
+## 📬 Contact
+
+* **GitHub:** [https://github.com/Vanitagatigennavar](https://github.com/Vanitagatigennavar)
+* **Email:** [xworkzvanita@gmail.com](mailto:xworkzvanita@gmail.com)
+* **LinkedIn:** *(www.linkedin.com/in/vanita-gatigennavar-7138a3200)*
+
+---
+
+## ⭐ Acknowledgements
+
+* React Documentation
+* Vite Documentation
+* Netlify
+
+---
+
+## 📄 License
+
+This project is open‑source and available under the **MIT License**.
+
+---
+
+✨ *If you like this project, feel free to give it a star on GitHub!*

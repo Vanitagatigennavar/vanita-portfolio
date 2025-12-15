@@ -2,7 +2,11 @@ import Section from "./Section";
 
 const Home = () => {
   return (
+<<<<<<< HEAD
     <Section className="relative">
+=======
+    <Section className="relative pt-40">
+>>>>>>> bc8b3ebfd4e8ddbc3bf7746a7a356c4633084f1b
       <div className="grid md:grid-cols-2 gap-20 items-center">
 
         {/* LEFT — TEXT CONTENT */}
