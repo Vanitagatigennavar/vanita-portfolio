@@ -7,14 +7,16 @@ const About = () => (
       {/* LEFT — CONTENT */}
       <div>
         {/* Name */}
-        <h2
-          className="relative inline-block text-4xl md:text-5xl font-semibold mb-4
-          bg-gradient-to-r from-blue-400 via-violet-400 to-pink-400
-          bg-clip-text text-transparent
-          animate-softBlink"
-        >
-          Vanita Gatigennavar
-        </h2>
+       <h2
+  className="relative inline-block text-4xl md:text-5xl font-semibold mb-4
+  leading-none
+  bg-gradient-to-r from-blue-400 via-violet-400 to-pink-400
+  bg-clip-text text-transparent
+  animate-softBlink"
+>
+  Vanita Gatigennavar
+</h2>
+
 
      
 
