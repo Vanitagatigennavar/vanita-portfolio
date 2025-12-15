@@ -1,7 +1,9 @@
 const Section = ({ children, className = "" }) => {
   return (
     <section>
-      <div className="max-w-6xl mx-auto">{children}</div>
+      <div className="max-w-6xl mx-auto px-4 md:px-8">{children}</div>
+ 
+
     </section>
   );
 };
