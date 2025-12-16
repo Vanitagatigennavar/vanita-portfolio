@@ -43,7 +43,7 @@ const Contact = () => (
     {/* Social Links */}
     <div className="mt-14 flex justify-center gap-6">
       <a
-        href="linkedin.com/in/vanita-gatigennavar-7138a3200"
+        href="https://www.linkedin.com/in/vanita-gatigennavar-7138a3200"
         target="_blank"
         rel="noreferrer"
         className="p-4 rounded-full bg-[#160A2E]
